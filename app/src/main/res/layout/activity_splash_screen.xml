@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mitchwebster.shopwithfriends.SplashScreen"
+    android:background="#ffffffff"
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:layout_width="85pt"
+        android:layout_height="120pt"
+        android:id="@+id/logo"
+        android:src="@drawable/logo_color"
+        android:layout_marginTop="52dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/title_section1" />
+
+    <ImageView
+        android:layout_width="125pt"
+        android:layout_height="30pt"
+        android:id="@+id/swf"
+        android:src="@drawable/swf_home"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/title_section1"
+        android:layout_below="@+id/logo" />
+
+
+    <ImageButton
+        android:layout_width="44pt"
+        android:layout_height="16pt"
+        android:id="@+id/login"
+        android:layout_below="@+id/swf"
+        android:onClick="openLogin"
+        android:contentDescription="@string/title_section1"
+        android:src="@drawable/sign_in"
+        android:scaleType="fitXY"
+        android:layout_marginTop="1pt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30pt"
+        android:backgroundTintMode="src_atop"
+        android:backgroundTint="#ff8bd1ef"
+        tools:ignore="UnusedAttribute" />
+
+    <ImageButton
+        android:layout_width="50pt"
+        android:layout_height="16pt"
+        android:id="@+id/register"
+        android:layout_below="@+id/swf"
+        android:onClick="openRegister"
+        android:contentDescription="@string/title_section1"
+        android:src="@drawable/register"
+        android:layout_marginTop="1pt"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="30pt"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        android:backgroundTint="#ff8bd1ef"
+        android:backgroundTintMode="src_atop"
+        tools:ignore="UnusedAttribute" />
+
+
+</RelativeLayout>

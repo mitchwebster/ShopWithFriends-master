@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" tools:ignore="UnusedResources">Email</string>
+    <string name="prompt_password" tools:ignore="UnusedResources">Password</string>
+    <string name="action_sign_in" tools:ignore="UnusedResources">Sign In</string>
+    <string name="action_sign_in_short" tools:ignore="UnusedResources">Sign in</string>
+    <string name="plus_sign_out" tools:ignore="UnusedResources">Switch Google+ account</string>
+    <string name="plus_disconnect" tools:ignore="UnusedResources">Disconnect from Google+</string>
+    <string name="error_invalid_email" tools:ignore="UnusedResources">This email address is invalid</string>
+    <string name="error_invalid_password" tools:ignore="UnusedResources">This password is too short</string>
+    <string name="error_incorrect_password" tools:ignore="UnusedResources">This password is incorrect</string>
+    <string name="error_field_required" tools:ignore="UnusedResources">This field is required</string>
+    <string name="cancel_login" tools:ignore="UnusedResources">Cancel Login</string>
+</resources>

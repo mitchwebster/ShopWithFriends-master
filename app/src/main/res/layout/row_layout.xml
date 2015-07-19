@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/icon"
+        android:layout_margin="5dp"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="322dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/user_email_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/accent_material_light"
+            android:text="Hello"
+            android:layout_below="@+id/user_name_list"
+            android:layout_alignParentStart="true"
+            tools:ignore="HardcodedText,RtlSymmetry">
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_name_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/material_blue_grey_800"
+            android:text="Hello"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            tools:ignore="HardcodedText,RtlSymmetry">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/user_rating_list"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/user_name_list"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="false"
+            android:width="@dimen/abc_text_size_display_4_material"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

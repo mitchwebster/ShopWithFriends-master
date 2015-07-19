@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings related to adding a friend -->
+    <string name="friend_email">Friend Email</string>
+
+</resources>
